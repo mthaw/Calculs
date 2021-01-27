@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
-	
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Calculatrice">
-	<!-- TODO Add Nodes -->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="262.0" prefWidth="244.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="btnValider" layoutX="148.0" layoutY="213.0" mnemonicParsing="false" onAction="#afficher" text="Button" />
+      <Label fx:id="lblReponse" layoutX="26.0" layoutY="217.0" prefHeight="22.0" prefWidth="105.0" textFill="#ee2828" />
+      <TextField fx:id="txtNum1" layoutX="26.0" layoutY="86.0" />
+      <TextField fx:id="txtNum2" layoutX="26.0" layoutY="153.0" />
+      <Label layoutX="35.0" layoutY="36.0" prefHeight="31.0" prefWidth="187.0" text="Calculatrice + et -" textFill="RED">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>
